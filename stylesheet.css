@@ -1,11 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
 html {
-  background-color:transparent;
+  background-color: transparent;
   font-family: sans-serif;
-} 
+}
 
 body {
-    height: 100%;
-    margin: 0 auto;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .bg_image {
@@ -15,44 +21,87 @@ body {
   background-size: cover;
   position: relative;
   height: 20vw;
-  width: 100%;
 }
 
 /* Position the navbar container inside the image */
 .container {
-  position: absolute;
-  margin: 1vw 0vw 0vw 68vw;
-  width: auto;
-}
-
-  /* The navbar */
-.topnav {
-  overflow: hidden;
-  background-color:transparent;
-    
-}
-
-  /* Navbar links */
-.topnav a {
-  float: left;
-  color: rgba(231, 231, 231, 0.849);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-  
-.topnav a:hover {
-    color: white;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  white-space: nowrap;
+  display: inline-block;
+  width: 75%;
+  margin: auto;
 }
 
 .page {
   margin: auto;
   width: 60%;
-  padding: 10px;
+  padding: 50px 0 0 0;
   text-align: center;
+  color: aliceblue;
 }
 
 .content {
+  padding: 30px 0 0;
   font-size: 20px;
+  color:aliceblue;
+}
+
+li, a, button {
+  font-weight: 500;
+  font-size: 17px;
+  color: rgba(231, 231, 231, 0.849);
+  text-decoration: none;
+}
+
+header {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+ 
+}
+
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+  height: 80px;
+  width: 80px;
+}
+
+.nav__links{
+  list-style:none;
+}
+
+.nav__links li{
+  display:inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li:nth-child(1){
+  padding: 0 20px 0 0;
+}
+
+.nav__links li a{
+  transition: 0,5s ease 0s;
+}
+
+.nav__links li a:hover{
+  color: white;
+}
+
+
+button{
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s ease 0s;
+}
+
+button:hover{
+  background-color:rgb(161, 181, 69);
 }
