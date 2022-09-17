@@ -1,11 +1,10 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: black;
 }
 html {
-  background-color: transparent;
   font-family: sans-serif;
 }
 
@@ -15,24 +14,14 @@ body {
 }
 
 .bg_image {
-  background-image: url("Images/chop.jpg");
+  background-image: url(./Images/Restaurace.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 20vw;
+  height: 250px;
 }
 
-/* Position the navbar container inside the image */
-.container {
-  position: relative;
-  margin: auto;
-  width: 100%;
-  white-space: nowrap;
-  display: inline-block;
-  width: 75%;
-  margin: auto;
-}
 
 .page {
   margin: auto;
@@ -40,15 +29,18 @@ body {
   padding: 50px 0 0 0;
   text-align: center;
   color: aliceblue;
+  
 }
 
 .content {
   padding: 30px 0 0;
   font-size: 20px;
-  color:aliceblue;
+  color: aliceblue;
 }
 
-li, a, button {
+li,
+a,
+button {
   font-weight: 500;
   font-size: 17px;
   color: rgba(231, 231, 231, 0.849);
@@ -56,52 +48,46 @@ li, a, button {
 }
 
 header {
-  display:flex;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
- 
+  padding: 10px 0% 0 5px;
 }
 
-.logo{
+.logo {
   cursor: pointer;
   margin-right: auto;
-  height: 80px;
-  width: 80px;
+  height: 130px;
+  width: 130px;
 }
 
-.nav__links{
-  list-style:none;
+.nav__links {
+  list-style: none;
 }
 
-.nav__links li{
-  display:inline-block;
-  padding: 0px 20px;
+.nav__links li {
+  display: inline-block;
+  padding: 0px 10px;
 }
 
-.nav__links li:nth-child(1){
-  padding: 0 20px 0 0;
+.nav__links li a {
+  transition: 0, 5s ease 0s;
 }
 
-.nav__links li a{
-  transition: 0,5s ease 0s;
-}
-
-.nav__links li a:hover{
+.nav__links li a:hover {
   color: white;
 }
 
-
-button{
+button {
   margin-left: 20px;
   padding: 9px 25px;
-  background-color: rgba(0,136,169,1);
+  background-color: rgba(0, 136, 169, 1);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: 0.5s ease 0s;
 }
 
-button:hover{
-  background-color:rgb(161, 181, 69);
+button:hover {
+  background-color: rgb(161, 181, 69);
 }
