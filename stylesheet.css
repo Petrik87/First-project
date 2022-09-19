@@ -57,8 +57,9 @@ header {
 .logo {
   cursor: pointer;
   margin-right: auto;
-  height: 130px;
-  width: 130px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
 }
 
 .nav__links {
