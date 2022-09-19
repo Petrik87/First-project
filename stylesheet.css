@@ -14,40 +14,6 @@ body {
   margin: 0 auto;
 }
 
-.bg_image {
-  background-image: url(./Images/Restaurace.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 250px;
-}
-
-
-.page {
-  margin: auto;
-  width: 60%;
-  padding: 50px 0 0 0;
-  text-align: center;
-  color: aliceblue;
-
-}
-
-.content {
-  padding: 30px 0 0;
-  font-size: 20px;
-  color: aliceblue;
-}
-
-li,
-a,
-button {
-  font-weight: 500;
-  font-size: 17px;
-  color: rgba(231, 231, 231, 0.849);
-  text-decoration: none;
-}
-
 header {
   display: flex;
   justify-content: flex-end;
@@ -78,6 +44,14 @@ header {
   color: white;
 }
 
+li,a,button {
+  font-weight: 500;
+  font-size: 17px;
+  color: rgba(231, 231, 231, 0.849);
+  text-decoration: none;
+}
+
+
 button {
   margin-left: 20px;
   padding: 9px 25px;
@@ -91,3 +65,48 @@ button {
 button:hover {
   background-color: rgb(161, 181, 69);
 }
+
+.bg_image {
+  background-image: url(./Images/Restaurace.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 250px;
+}
+
+
+.pageContainer {
+  margin: auto;
+  width: 60%;
+  padding: 50px 0 0 0;
+  text-align: center;
+  color: aliceblue;
+
+}
+
+.content {
+  padding: 30px 0 0 0;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.poledniMenuContainer {
+  padding: 30px 0 0 0;
+  font-size: 20px;
+  color: antiquewhite;
+  
+}
+
+.poledniMenuContainer img{
+height: 400px;
+width: 500px;
+margin: 10px 0 0 0;
+}
+
+.poledniMenuContainer p{
+  padding: 30px 0 0 0;
+  font-size: 20px;
+  color: aliceblue;
+}
+
