@@ -44,7 +44,9 @@ header {
   color: white;
 }
 
-li,a,button {
+li,
+a,
+button {
   font-weight: 500;
   font-size: 17px;
   color: rgba(231, 231, 231, 0.849);
@@ -95,18 +97,24 @@ button:hover {
   padding: 30px 0 0 0;
   font-size: 20px;
   color: antiquewhite;
-  
+
 }
 
-.poledniMenuContainer img{
-height: 400px;
-width: 500px;
-margin: 10px 0 0 0;
+.poledniMenuContainer img {
+  height: 400px;
+  width: 500px;
+  margin: 10px 0 0 0;
 }
 
-.poledniMenuContainer p{
+.poledniMenuContainer p {
   padding: 30px 0 0 0;
   font-size: 20px;
   color: aliceblue;
+}
+
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
